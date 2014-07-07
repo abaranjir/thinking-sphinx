@@ -42,4 +42,5 @@ class ArticlesController < ApplicationController
     flash[:notice] = "Successfully destroyed article."
     redirect_to articles_url
   end
+  
 end
